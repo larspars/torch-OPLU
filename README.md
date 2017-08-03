@@ -1,6 +1,6 @@
 # OPLU
 
-A vectorized, CUDA compatible implementation of Orthogonal Permutation Linear Unit (OPLU) for Torch, as described in the paper "Norm-preserving Orthogonal Permutation Linear Unit Activation Functions (OPLU)", Chernodub et al, 2016
+A vectorized, CUDA compatible implementation of Orthogonal Permutation Linear Unit (OPLU) for Torch, as described in the paper ["Norm-preserving Orthogonal Permutation Linear Unit Activation Functions (OPLU)"](https://arxiv.org/abs/1604.02313), Chernodub et al, 2016
 
 With the OPLU, every unit belongs to a pair `{x1, x2}`, and the activation function simply sorts this pair:
 ```lua
