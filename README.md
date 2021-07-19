@@ -7,3 +7,5 @@ With the OPLU, every unit belongs to a pair `{x1, x2}`, and the activation funct
     f(x1, x2) = { max(x1, x2), min(x1, x2) } 
 ```
 This activation function is norm and mean preserving, and has no diminishing effect on the gradient.
+
+License: MIT
